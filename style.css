@@ -1,0 +1,24 @@
+:root {
+  --primary: #0d6efd;
+}
+
+
+.container {
+  display: grid;
+  width: fit-content;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-column-gap: 15px;
+  grid-row-gap: 15px;
+}
+
+.tile {
+  height: 200px;
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--primary);
+  color: white;
+  font-size: xx-large;
+}
