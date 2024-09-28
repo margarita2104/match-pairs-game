@@ -109,7 +109,6 @@ document.addEventListener("DOMContentLoaded", function (event) {
         }
       });
     }
-
   }
 
   button.addEventListener("click", () => {
